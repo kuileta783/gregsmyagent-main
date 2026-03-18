@@ -1,0 +1,16 @@
+# Robots.txt for gregsmyagent.com
+
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /for-buyers
+Allow: /for-sellers
+Allow: /blog
+Allow: /contact
+
+# Disallow admin/private
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://gregsmyagent.com/sitemap.xml
