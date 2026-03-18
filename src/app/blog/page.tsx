@@ -10,17 +10,33 @@ export const metadata = {
 const blogPosts = [
   {
     id: 1,
-    title: "Los Angeles Housing Market Update 2026",
-    excerpt: "A comprehensive look at the current state of the LA real estate market, including price trends, inventory levels, and predictions for the coming months.",
+    title: "10 Essential Tips for First-Time Home Buyers in Los Angeles",
+    excerpt: "Complete guide for first-time home buyers in LA. Learn about down payments, neighborhoods, mortgages, and more from local expert Greg.",
+    date: "March 18, 2026",
+    category: "Buyers Guide",
+    slug: "la-real-estate-tips"
+  },
+  {
+    id: 2,
+    title: "How to Sell Your Los Angeles Home Fast",
+    excerpt: "Learn proven strategies to sell your LA home quickly and for the best price. Tips from local real estate expert Greg.",
     date: "March 15, 2026",
+    category: "Sellers Guide",
+    slug: "sell-home-fast"
+  },
+  {
+    id: 3,
+    title: "Los Angeles Housing Market Update 2026",
+    excerpt: "A comprehensive look at the current state of the LA real estate market, including price trends, inventory levels, and predictions.",
+    date: "March 10, 2026",
     category: "Market Trends",
     slug: "la-housing-market-2026"
   },
   {
-    id: 2,
+    id: 4,
     title: "First-Time Home Buyer's Guide in Los Angeles",
     excerpt: "Everything you need to know about buying your first home in LA, from saving for a down payment to closing the deal.",
-    date: "March 10, 2026",
+    date: "March 5, 2026",
     category: "Buyers Guide",
     slug: "first-time-buyer-guide"
   }
